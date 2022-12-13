@@ -76,5 +76,5 @@ while True:
     cv2.putText(img, finalText, (60, 430),
                 cv2.FONT_HERSHEY_COMPLEX_SMALL, 4, (0, 0, 0), 5)
 
-    cv2.imshow("Image", img)
+    cv2.imshow("output", img)
     cv2.waitKey(1)
