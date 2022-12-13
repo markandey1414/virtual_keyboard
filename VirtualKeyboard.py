@@ -6,6 +6,7 @@ from pynput.keyboard import Controller
 cap = cv2.VideoCapture(0)
 cap.set(3, 1280)
 cap.set(4, 720)
+cap.set(10, 200)
 
 detector = HandDetector(detectionCon=0.8)
 keys = [["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
